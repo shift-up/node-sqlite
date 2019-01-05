@@ -9,18 +9,24 @@ let db = new sqlite3.Database('./people.db', (err) => {
   console.log('Connected to the people database.');
 });
 
+///////////////////////
+// Create a table
 
 let sql = 'CREATE TABLE contacts (' +
  'contact_id INTEGER PRIMARY KEY,' +
  'name TEXT NOT NULL,' + 
- 'age integer NOT NULL UNIQUE' +
+ 'email TEXT NOT NULL UNIQUE,' + 
+ 'age integer NOT NULL' +
 ');';
 
-// Create a table
 db.run(sql);
 
+///////////////////////
 // Insert a row into the table
 
+let sql_insert = 'INSERT INTO contacts (contact_id,name,email,age) VALUES (1, "John Doe", "jon@somthing.com", 25);'
+
+db.run(sql_insert);
 
 
 // close the database connection
