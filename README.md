@@ -11,8 +11,19 @@ Lesson/practice with using an SQL database with node
 
 
 # Setup SQL for Node
+
 Tutorial:
 http://www.sqlitetutorial.net/sqlite-nodejs/ 
+
+### Set up database
+
+Create table: http://www.sqlitetutorial.net/sqlite-create-table/
+
+Insert rows: http://www.sqlitetutorial.net/sqlite-nodejs/insert/
+
+### Run a query on your table/database
+
+http://www.sqlitetutorial.net/sqlite-nodejs/query/
 
 
 
