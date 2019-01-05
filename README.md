@@ -5,9 +5,9 @@ Lesson/practice with using an SQL database with node
 - SQL in the Cloud: Data.World
 - SQL Statements
 - SQL Practice
-Business Licenses Dataset
-Land Bank Inventory Dataset
-Alternative: Querying the Detroit Open Data API directly
+	- Business Licenses Dataset
+	- Land Bank Inventory Dataset
+	- Alternative: Querying the Detroit Open Data API directly
 
 
 # Setup SQL for Node
